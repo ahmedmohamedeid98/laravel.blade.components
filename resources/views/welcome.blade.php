@@ -44,6 +44,16 @@
     </x-section> --}}
 
     <x-section>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, quia eveniet sint reiciendis reprehenderit perspiciatis ullam obcaecati natus architecto repellendus ex blanditiis, consequatur facilis tenetur dignissimos expedita saepe illo nam!
+        <x-tabs active="First">
+            <x-tab name="First">
+                Conntent for first tab
+            </x-tab>
+            <x-tab name="Second">
+                Content for second tab
+            </x-tab>
+            <x-tab name="Third">
+                Content for third tab
+            </x-tab>
+        </x-tabs>
     </x-section>
 </x-layout>
